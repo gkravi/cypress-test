@@ -1,2 +1,0 @@
-# cypress-test
-Cypress Test
