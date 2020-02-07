@@ -15,5 +15,10 @@ describe("Test Honeywell Newsroom page", function() {
       .click();
     // Should be on a new URL which includes '/en-us/newsroom/news'
     cy.url().should("include", "/en-us/newsroom/news");
+
+    cy.get(".tag-cta.header6")
+      .contains("Aerospace")
+      .click();
+    cy.url().should("include", "/en-us/news?tag=Aerospace");
   });
 });
