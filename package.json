@@ -5,7 +5,7 @@
   "scripts": {
     "e2e": "cypress open",
     "cypress:open": "cypress open",
-    "cyrun": "node_modules\\.bin\\cypress run",
+    "cyrun": "node_modules\\.bin\\cypress run --record --key a6e191ae-2938-4480-b89f-2590d2a88948",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
